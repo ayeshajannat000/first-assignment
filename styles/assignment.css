@@ -69,10 +69,13 @@ top: 468px;
     margin-top: 150px;
     display: flex;
 justify-content: space-around;
+height: 720px;
+width:100%;
+
 }
 
 
-.section-image{
+.first-section-image{
     background-image: url('../images/person.png');
     background-repeat: no-repeat;
     width: 590px;
@@ -81,7 +84,7 @@ justify-content: space-around;
     left: 205px;  
 }
 
-.section-text{
+.first-section-text{
     width: 416px;
     height: 370px;
 margin-top: 120px;
@@ -89,19 +92,51 @@ margin-top: 120px;
     top: 1200px;   
 }
 
-.section-title{
+.first-section-title{
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 25px;
     text-align: center;
+    margin-right: 18px;
 }
- .section-description{
+ .first-section-description{
     font-size: 16px;
     font-weight: 400;
     color: #444343;
     margin-bottom: 25px;
  }
  ul{
-    list-style: none;text-align: center;
-    text-align: left;
+    list-style: none;
+    
  }
+
+ /* secon-section styles */
+
+ h2{
+    font-size: 60px;
+    text-align: center;
+    margin-top:130px ;
+    margin-bottom: 100px;
+ }
+ .second-section{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 1140px;
+    margin-left: 165px;
+    text-align: center;
+ }
+ .description-title{
+    font-size: 30px;
+    font-weight: 700;
+
+ }
+ .description{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+
+ }
+ /* Third-section styles */
+
+ 
