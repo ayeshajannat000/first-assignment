@@ -116,7 +116,7 @@ margin-top: 120px;
     font-size: 60px;
     text-align: center;
     margin-top:130px ;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
  }
  .second-section{
     display: flex;
@@ -125,6 +125,7 @@ margin-top: 120px;
     width: 1140px;
     margin-left: 165px;
     text-align: center;
+    
  }
  .description-title{
     font-size: 30px;
