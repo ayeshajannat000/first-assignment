@@ -18,12 +18,10 @@ text-align: right;
 .banner{
     position: absolute;
     text-align: right;
-
 padding-left: 60%;
 padding-top: 10%;
-
-
 }
+
 .banner-title{
     font-weight:bold;
     font-size: 75px;
@@ -34,10 +32,8 @@ padding-top: 10%;
     width: 525px;
     left: 845px;
     top: 216px;
-    
-    
-
 }
+
 .banner-description{
     color:#444343 ;
     font-size: 17px;
@@ -48,7 +44,6 @@ width: 495px;
 height: 78px;
 left: 875px;
 top: 468px;
-
 }
 .banner-button{
     background-color: #F15B22;
@@ -73,7 +68,6 @@ height: 720px;
 width:100%;
 
 }
-
 
 .first-section-image{
     background-image: url('../images/person.png');
@@ -107,9 +101,12 @@ margin-top: 120px;
  }
  ul{
     list-style: none;
-
+ }
+    ul li:before {
+        content: '✓';
+        color: green;
+        margin-right: 10px;
     }
- 
 
 
  /* secon-section styles */
@@ -146,7 +143,6 @@ margin-top: 120px;
     background-image: url('../images/watch.png'), url('../images/gradient2.png');
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-
     width: 1150px;
     height: 300px;
     margin-left: 200px;
